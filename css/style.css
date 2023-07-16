@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    min-height: 100vh;
+}
+
+/*Header*/
+header{
+    height: 220px;
+    padding: 10px;
+    background-color: #87A0B2;
+}
+
+.logo-principal{
+    width: 70px;
+    margin-right: 3rem;
+}
+
+.icons{
+    width: 40px;
+    margin-right: 1rem;
+}
+
+nav{
+    padding: 20px 0;
+}
+
+.menu-navegacion li a{
+    display: inline-block;
+    height: 25px;
+    font-weight: 700;
+    color: white;
+}
+
+.banner{
+    padding: 3rem 0;
+}
+
+.frase-banner{
+    position: absolute;
+    top: 52rem;
+    font-size: 4rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.banner img{
+    object-fit: cover;
+}
+
+.enlaces{
+    height: 20rem;
+    width: auto;
+    margin: 5rem 0;
+    text-align: center;
+}
+
+.enlace-container{
+    height: 20rem;
+    width: 15rem;
+    float: left;
+    margin-right: 5rem;
+}
+
+.enlace-container img{
+    width: 100%;
+}
+
+.enlace-container a{
+    width: 15rem;
+    font-weight: 700;
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.destacados{
+    margin: 5rem 0;
+    width: auto;
+}
+
+.noticia{
+    width: 100%;
+    padding: 20px 0;
+}
+
+.btn{
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: #1d71B8;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    margin: 1rem 0;
+}
+
+/*footer*/
+
+footer{
+    text-align: center;
+    background-color: #B3BCC8;
+    padding: 20px 0;
+}
+
+.redes-sociales-footer li a{
+    display: inline-block;
+    width: 50px;
+    text-align: center;
+}
+
+.redes-sociales-footer li a img{
+    width: 100%;
+}
+
+footer p {
+    padding: 10px 0;
+}
