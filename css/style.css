@@ -109,8 +109,37 @@ nav{
 .color-principal{
     background-color: #87A0B2;
 }
+
 .img-fluid{
     height: 100%;
+}
+
+.img-trayectoria{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+.title-principal-trayectoria{
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.justify{
+    text-align: justify;
+    padding: 0 1rem;
+}
+
+/* Trayectoria */
+
+.container-trayectoria{
+    padding: 3rem 1rem;
+}
+
+.row{
+    align-items: center;
+    justify-content: center;
 }
 
 /*footer*/
