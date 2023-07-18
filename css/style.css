@@ -131,6 +131,8 @@ nav{
     padding: 0 1rem;
 }
 
+.
+
 /* Trayectoria */
 
 .container-trayectoria{
@@ -148,6 +150,20 @@ nav{
 
 .frase{
     font-size: 1rem;
+}
+
+/*articulo*/
+
+.articulo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+.articulo-cuerpo, .cards-articles, .spacing{
+    margin: 2rem 0;
 }
 
 /*footer*/
