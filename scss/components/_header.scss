@@ -1,0 +1,53 @@
+// Variables
+$header-background-color: #87A0B2;
+$link-color: white;
+$link-text-color: white;
+$link-text-decoration: none;
+$header-height: 120px;
+$header-padding: 10px;
+$logo-width: 70px;
+$logo-margin-right: 3rem;
+$icon-width: 40px;
+$icon-margin-right: 1rem;
+$nav-padding-top: 20px;
+$nav-padding-bottom: 0;
+$link-height: 25px;
+$link-font-weight: 700;
+
+// Header
+header {
+  height: $header-height;
+
+  nav{
+    background-color: $header-background-color;
+    z-index: 1;
+    padding: $header-padding;
+  }
+  
+  .logo-principal {
+    width: $logo-width;
+    margin-right: $logo-margin-right;
+  }
+
+  .icons {
+    width: $icon-width;
+    margin-right: $icon-margin-right;
+  }
+
+  nav {
+    padding: $nav-padding-top 0 $nav-padding-bottom;
+  }
+
+  .link-icons {
+    color: $link-color;
+    margin: 0px 0.5rem;
+  }
+
+  .menu-navegacion li a {
+    display: inline-block;
+    height: $link-height;
+    font-weight: $link-font-weight;
+    color: $link-text-color;
+    text-decoration: $link-text-decoration;
+  }
+}

@@ -1,0 +1,28 @@
+// Variables
+$footer-background-color: #87A0B2;
+$link-text-decoration: underline;
+$link-color: white;
+
+// Footer
+footer {
+  text-align: center;
+  background-color: $footer-background-color;
+  padding: 10px 0;
+
+  .redes-sociales-footer {
+    margin: 0;
+  }
+
+  .link-icons{
+    color: $link-color;
+  }
+
+  p {
+    padding: 10px 0;
+    margin: 0;
+
+    a {
+      text-decoration: $link-text-decoration;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+// Variables
+$primary-font: 'Montserrat', sans-serif;
+$background-color: #e9ecef;
+$disabled-cursor: not-allowed;
+
+// Global styles
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth; // Para que el scrolleo en la one page sea suave
+}
+
+body {
+  font-family: $primary-font;
+  background-color: $background-color;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+.disabled {
+  cursor: $disabled-cursor;
+  pointer-events: none;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+  min-height: 100vh;
+}

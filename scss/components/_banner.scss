@@ -1,0 +1,30 @@
+// Variables
+$banner-padding: 3rem 1rem;
+$frase-banner-top: 12rem;
+$frase-banner-font-size: 0.7rem;
+$frase-banner-font-weight: 700;
+$frase-banner-text-align: center;
+$frase-banner-width: 90%;
+
+// Banner
+.banner {
+  padding: $banner-padding;
+
+  .frase-banner {
+    position: absolute;
+    top: $frase-banner-top;
+    font-size: $frase-banner-font-size;
+    font-weight: $frase-banner-font-weight;
+    text-align: $frase-banner-text-align;
+    width: $frase-banner-width;
+
+    @media screen and (min-width: 550px) {
+      font-size: 1rem;
+      width: 60%;
+    }
+
+    @media screen and (min-width: 768px) {
+      font-size: 2rem;
+    }
+  }
+}

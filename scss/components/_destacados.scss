@@ -1,0 +1,22 @@
+// Variables
+$destacados-margin: 5rem 0;
+$destacados-padding: 0 1rem;
+$noticia-margin: 1rem 0;
+
+// Destacados
+.destacados {
+  margin: $destacados-margin;
+  width: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: $destacados-padding;
+
+  .noticia {
+    margin: $noticia-margin;
+  }
+
+  .img-fluid {
+    height: 100%;
+  }
+}
