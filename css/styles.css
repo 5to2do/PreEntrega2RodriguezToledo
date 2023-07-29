@@ -251,12 +251,12 @@ main {
   overflow: hidden;
 }
 @media screen and (min-width: 550px) {
-  .carousel .carousel {
+  .carousel {
     height: 20rem;
   }
 }
 @media screen and (min-width: 768px) {
-  .carousel .carousel {
+  .carousel {
     height: 30rem;
   }
 }
@@ -274,8 +274,8 @@ main {
   margin-top: 1rem;
 }
 @media screen and (min-width: 550px) {
-  .evento-1 .card-group .card-group,
-  .evento-2 .card-group .card-group {
+  .evento-1 .card-group,
+  .evento-2 .card-group {
     margin-top: 0;
   }
 }
@@ -284,10 +284,8 @@ main {
   height: 100%;
 }
 @media screen and (min-width: 768px) {
-  .evento-1 .evento-1,
-  .evento-1 .evento-2,
-  .evento-2 .evento-1,
-  .evento-2 .evento-2 {
+  .evento-1,
+  .evento-2 {
     flex-direction: row;
   }
 }
