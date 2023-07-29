@@ -1,0 +1,13 @@
+//Variables
+$btn-bg-color: #126cb2;
+$btn-border: 2px solid black;
+$btn-bgcolor-hover: #2a316d;
+
+.btn{
+    background-color: $btn-bg-color;
+    border: $btn-border;
+
+    &:hover{
+        background-color: $btn-bgcolor-hover;
+    }
+}

@@ -116,6 +116,7 @@ main {
 }
 .enlaces .card-sections {
   margin: 0.5rem 0;
+  width: 15rem;
 }
 @media screen and (min-width: 550px) {
   .enlaces {
@@ -141,6 +142,14 @@ main {
 }
 .destacados .img-fluid {
   height: 100%;
+}
+
+.btn {
+  background-color: #126cb2;
+  border: 2px solid black;
+}
+.btn:hover {
+  background-color: #2a316d;
 }
 
 .img-trayectoria {

@@ -12,6 +12,7 @@ $card-sections-margin: 0.5rem 0;
 
   .card-sections {
     margin: $card-sections-margin;
+    width: 15rem;
   }
 
   @media screen and (min-width: 550px) {
