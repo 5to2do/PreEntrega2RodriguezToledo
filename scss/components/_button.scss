@@ -2,6 +2,7 @@
 $btn-bg-color: #126cb2;
 $btn-border: 2px solid black;
 $btn-bgcolor-hover: #2a316d;
+$btn-opacity: 0.8;
 
 .btn{
     background-color: $btn-bg-color;
@@ -10,4 +11,10 @@ $btn-bgcolor-hover: #2a316d;
     &:hover{
         background-color: $btn-bgcolor-hover;
     }
+}
+
+.btn.not-active{
+    opacity: $btn-opacity;
+    pointer-events: none; 
+    cursor: default; 
 }
