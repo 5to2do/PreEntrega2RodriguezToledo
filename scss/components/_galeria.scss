@@ -1,0 +1,57 @@
+// Galería
+.galeria-principal-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 1rem;
+}
+
+.carousel {
+    width: 90%;
+    margin: 0 auto;
+    height: 15rem;
+    overflow: hidden;
+
+    @media screen and (min-width: 550px) {
+        .carousel {
+          height: 20rem;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .carousel {
+          height: 30rem;
+        }
+    }
+}
+
+.evento-1,
+.evento-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 1rem;
+
+    .card-group {
+        margin-top: 1rem;
+
+        @media screen and (min-width: 550px) {
+            .card-group {
+              margin-top: 0;
+            }
+        }
+    }
+    
+    .card-img-top {
+        height: 100%;
+    }
+
+    @media screen and (min-width: 768px) {
+        .evento-1,
+        .evento-2 {
+          flex-direction: row;
+        }
+    }
+
+}

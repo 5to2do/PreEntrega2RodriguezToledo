@@ -204,4 +204,77 @@ main {
   margin-top: 5rem;
 }
 
+.articulo {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+.articulo .articulo-cuerpo {
+  margin: 2rem 0;
+}
+.articulo .spacing {
+  margin: 2rem 0;
+}
+
+.cards-articles {
+  margin: 2rem 0;
+}
+
+.galeria-principal-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 1rem;
+}
+
+.carousel {
+  width: 90%;
+  margin: 0 auto;
+  height: 15rem;
+  overflow: hidden;
+}
+@media screen and (min-width: 550px) {
+  .carousel .carousel {
+    height: 20rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .carousel .carousel {
+    height: 30rem;
+  }
+}
+
+.evento-1,
+.evento-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem 1rem;
+}
+.evento-1 .card-group,
+.evento-2 .card-group {
+  margin-top: 1rem;
+}
+@media screen and (min-width: 550px) {
+  .evento-1 .card-group .card-group,
+  .evento-2 .card-group .card-group {
+    margin-top: 0;
+  }
+}
+.evento-1 .card-img-top,
+.evento-2 .card-img-top {
+  height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .evento-1 .evento-1,
+  .evento-1 .evento-2,
+  .evento-2 .evento-1,
+  .evento-2 .evento-2 {
+    flex-direction: row;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
