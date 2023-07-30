@@ -39,6 +39,7 @@ footer .redes-sociales-footer {
 }
 footer .link-icons {
   color: white;
+  margin: 0px 0.5rem;
 }
 footer p {
   padding: 10px 0;
@@ -162,6 +163,10 @@ main {
   opacity: 0.8;
   pointer-events: none;
   cursor: default;
+}
+
+.icon-link.icon-link-hover {
+  transform: translate3d(0, -0.125rem, 0);
 }
 
 .img-trayectoria {
