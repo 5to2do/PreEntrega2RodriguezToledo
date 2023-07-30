@@ -1,6 +1,7 @@
 // Artículo Destacado
 .articulo-destacado {
-    background-color: #bdc4c9;
+    // background-color: #bdc4c9;
+    background-image: radial-gradient(circle at 50% -20.71%, #ffffff 0, #cde5f2 50%, #98c0d6 100%);
     display: flex;
     justify-content: space-between;
     align-items: center;

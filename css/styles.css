@@ -84,6 +84,12 @@ main {
   min-height: 100vh;
 }
 
+.not-active {
+  opacity: 0.8;
+  pointer-events: none;
+  cursor: default;
+}
+
 .banner {
   padding: 3rem 1rem;
 }
@@ -291,7 +297,7 @@ main {
 }
 
 .articulo-destacado {
-  background-color: #bdc4c9;
+  background-image: radial-gradient(circle at 50% -20.71%, #ffffff 0, #cde5f2 50%, #98c0d6 100%);
   display: flex;
   justify-content: space-between;
   align-items: center;

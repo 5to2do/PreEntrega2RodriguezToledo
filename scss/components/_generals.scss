@@ -2,6 +2,7 @@
 $primary-font: 'Montserrat', sans-serif;
 $background-color: #e9ecef;
 $disabled-cursor: not-allowed;
+$btn-opacity: 0.8;
 
 // Global styles
 * {
@@ -38,4 +39,10 @@ main {
   max-width: 1200px;
   margin: auto;
   min-height: 100vh;
+}
+
+.not-active{
+  opacity: $btn-opacity;
+  pointer-events: none; 
+  cursor: default; 
 }
